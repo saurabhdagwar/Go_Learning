@@ -6,26 +6,50 @@ import (
 	"os"
 	"strings"
 
-	"github.com/saurabhdagwar/Go_Learning/tree/main/notes_store/note"
+	note "github.com/saurabhdagwar/Go_Learning/tree/main/notes_store/note"
+	todo "github.com/saurabhdagwar/Go_Learning/tree/main/notes_store/todo"
 )
 
+type saver interface {
+	Save() error
+}
+
+type outputable interface {
+	saver
+	Display()
+}
+
 func main() {
+	// Note Same and Display
 	reader := bufio.NewReader(os.Stdin)
 	title, content := getNoteData(reader)
+
 	userNote, err := note.New(title, content)
+	outputData(userNote, err)
+	// Todo Save and Display
+	todoText := getUserInput(reader, "Todo text: ")
+	todo, err := todo.New(todoText)
+	outputData(todo, err)
+}
+
+func outputData(data outputable, err error) {
 	if err != nil {
 		fmt.Println(err)
 		return
 	}
-	userNote.Display()
-	err = userNote.Save()
-	if err != nil {
-		fmt.Println("Failed Saving note:", err)
-		return
-	}
-	fmt.Println("Saving Note Successfully")
+	data.Display()
+	saveData(data)
 }
 
+func saveData(data saver) error {
+	err := data.Save()
+	if err != nil {
+		fmt.Println("Failed Saving Todo:", err)
+		return err
+	}
+	fmt.Println("Saving Todo Successfully")
+	return nil
+}
 func getNoteData(reader *bufio.Reader) (string, string) {
 	title := getUserInput(reader, "Note Title: ")
 
