@@ -1,0 +1,118 @@
+{
+  "site": {
+    "name": "Parm Midbrain Classes",
+    "tagline": "Learning begins with curiosity.",
+    "logo": "",
+    "partnership": "In Partnership with Blooming BrainWorld Institution",
+    "certification": "ISO 9001:2015 Certified"
+  },
+  "seo": {
+    "title": "Parm Midbrain Classes",
+    "description": "Learn more about Parm Midbrain Classes, our programs, and how to get in touch.",
+    "keywords": ["Parm Midbrain Classes", "learning", "classes", "Ulwe", "Navi Mumbai"]
+  },
+  "hero": {
+    "eyebrow": "A place to explore and learn",
+    "title": "A little curiosity can open a world of learning.",
+    "subtitle": "Explore learning with Parm Midbrain Classes.",
+    "description": "Discover our classes and get in touch with our team to find out more.",
+    "primaryCta": { "label": "Enquire Now", "href": "/contact" },
+    "secondaryCta": { "label": "Explore Our Services", "href": "/services" },
+    "image": ""
+  },
+  "about": {
+    "title": "A little about us",
+    "shortDescription": "A place for children and families to explore learning. Contact us to learn more about Parm Midbrain Classes and our current programs.",
+    "description": "Welcome to Parm Midbrain Classes. We are glad you are here. Families are welcome to reach out with questions about our classes and learning programs.",
+    "mission": "",
+    "vision": "",
+    "values": []
+  },
+  "benefits": [],
+  "services": [],
+  "founders": {
+    "founder": {
+      "name": "Priyanka Meheshre",
+      "role": "Founder",
+      "phone": "9004795550",
+      "image": "",
+      "description": "",
+      "showPhone": true
+    },
+    "coFounder": {
+      "name": "Pankaj Meheshre",
+      "role": "Co-Founder",
+      "phone": "9970377440",
+      "image": "",
+      "description": "",
+      "showPhone": true
+    }
+  },
+  "founderVideo": {
+    "enabled": true,
+    "title": "A Message from Our Founder",
+    "description": "",
+    "founderName": "Priyanka Meheshre",
+    "platform": "cloudinary",
+    "videoUrl": "",
+    "thumbnail": ""
+  },
+  "gallery": [],
+  "contact": {
+    "address": "Flat No 1501, Building No 37, Ananta Tower, Ulwe Sector 6, Navi Mumbai",
+    "phone": "9004795550",
+    "email": "",
+    "googleMapsUrl": ""
+  },
+  "socialLinks": {
+    "instagram": "",
+    "facebook": "",
+    "googleMaps": ""
+  },
+  "faqs": [],
+  "navigation": [
+    { "label": "Home", "href": "/" },
+    { "label": "About Us", "href": "/about-us" },
+    { "label": "Our Services", "href": "/services" },
+    { "label": "Images / Gallery", "href": "/gallery" },
+    { "label": "Contact Us / Enquiry", "href": "/contact" }
+  ],
+  "pageTitles": {
+    "about": "About Us",
+    "services": "Our Services",
+    "gallery": "Images / Gallery",
+    "contact": "Contact Us / Enquiry"
+  },
+  "pageDescriptions": {
+    "about": "Learn about Parm Midbrain Classes, our partnership, and how to get in touch.",
+    "services": "Get in touch with Parm Midbrain Classes to learn about current program details.",
+    "gallery": "Browse images and videos shared by Parm Midbrain Classes.",
+    "contact": "Contact Parm Midbrain Classes with a question or enquiry."
+  },
+  "sectionLabels": {
+    "trust": "A learning space for curious minds",
+    "about": "A little about us",
+    "benefits": "Benefits",
+    "services": "Explore our services",
+    "founders": "Meet our founders",
+    "founderVideo": "A Message from Our Founder",
+    "gallery": "A glimpse of our classes",
+    "contactCtaTitle": "Have questions?",
+    "contactCtaDescription": "Get in touch with Parm Midbrain Classes.",
+    "mission": "Our mission",
+    "vision": "Our vision",
+    "values": "Our values",
+    "faqs": "Frequently asked questions"
+  },
+  "emptyStates": {
+    "benefits": "Details about our approach will be shared soon.",
+    "services": "Program details will be available soon. Please contact us to learn more.",
+    "gallery": "Gallery content will be available soon.",
+    "faqs": "Please contact us if you have a question.",
+    "aboutDetails": "More details about our mission, vision, and values will be shared soon."
+  },
+  "footer": {
+    "description": "Learn more about our classes and get in touch with our team.",
+    "copyright": "All Rights Reserved."
+  }
+}
